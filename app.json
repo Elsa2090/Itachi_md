@@ -1,14 +1,14 @@
 {
-  "name": "BLADE-MD",
+  "name": "ITACHI-MD",
   "description": "A Whatsapp md bot built in NodeJs to make experience better",
-  "logo": "https://telegra.ph/file/5b8747782b8fb7312bd9d.jpg",
-  "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "blade Bot", "blade","BLADE-MD","theme bot","multi device","baileys","Alex tv"],
+  "logo": "https://telegra.ph/file/5c3ac09418e4937ab7be3.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "Zero-Two", "ITACHI Bot", "blade","BLADE-MD","theme bot","multi device","baileys","Alex tv"],
   "success_url": "/",
   "stack": "container",
 "env": {
   "OWNER_NAME": {
   "description": "BOT OWNER NAME", 
-      "value": "Alexdavid"
+      "value": "Bryant"
   },
   "ALIVE_MESSAGE": {
     "description": " SET YOUR ALIVE MESSAGE FOR THE BOT",
@@ -33,7 +33,7 @@
     },
    "THUMB_IMAGE": {
     "description": "THUMBNAIL for bot.",
-     "value": "https://telegra.ph/file/5b8747782b8fb7312bd9d.jpg"
+     "value": "https://telegra.ph/file/337f2dba14674a1e7b085.mp4"
     },
     "ANTI_BAD_WORD": {
     "description": "Put words here. If you want it enabled in your bot otherwise leave it blank",
@@ -73,9 +73,9 @@
        "value": "put owner number"
  },	  
    "SESSION_ID": {
-    "description": "DONT CUT BLADE-MD;;; WORD PUT YOURE SESSION ID HERE.",
+    "description": "PUT YOURE SESSION ID HERE.",
     "required" :true,
-    "value": "BLADE-MD;;;"
+    "value": "eny;;;"
   },
     "OPENAI_API_KEY": {
     "description": "Please put your OPENAI api key here.Get it from beta.openai.com(optional if u don't wan't then don't put it ",
@@ -87,8 +87,8 @@
     "value": "mongodb+srv://Maher:Zubair@sigma-male.ggwx4gc.mongodb.net/?retryWrites=true&w=majority"
   },
     "THEME": {
-    "description": "Put the theme name you want to use. Avilable themes are GOJO,blade-md,NEZUKO,LUFFY,GOKU and many more..",
-     "value": "blade-md"
+    "description": "Put the theme name you want to use. Avilable themes are GOJO,itachi-md,NEZUKO,LUFFY,GOKU and many more..",
+     "value": "itachi-md"
   },
     "WORKTYPE": {
   "description": "Worktype of your bot. Use public or private, if it is private then only bot number can use it. If public then everyone can use it.",
@@ -101,11 +101,11 @@
   },
   "PACK_AUTHOR": {
     "description": "PUT STICKER AUTHER NAME",
-    "value": "ALEXTV:"
+    "value": "Bryant:"
   },
   "PACK_NAME": {
     "description": "PUT STICKER PACK NAME",
-    "value": "BLADE-MD"
+    "value": "Itachi-MD"
   },
   "heroku": {
     "description": "Weather it is on heroku or not", 
