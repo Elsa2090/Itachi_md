@@ -249,7 +249,7 @@ return await citel.reply(`*👛 ${citel.pushName}'s Purse:*\n\n_🪙${balance.wa
         if(!isCreator) return
          let users = citel.mentionedJid ? citel.mentionedJid[0] : citel.msg.contextInfo.participant || false;
          if(!users) return citel.reply('Please give me user to add money.')
-         await eco.give(users, "secktor", parseInt(text.split(' ')[0]));
+         await eco.give(users, "Brynat", parseInt(text.split(' ')[0]));
         return await Void.sendMessage(citel.chat,{text: `Added 📈 ${parseInt(text.split(' ')[0])} to @${users.split('@')[0]} wallet🛸.`,mentions:[users]},{quoted:citel})
 
     }
@@ -303,7 +303,7 @@ return await citel.reply(`🍀User: ${citel.pushName}\n\n_🪙${balance.bank}/${
 	const typ = ['ran','rob','caught'];
     const random = typ[Math.floor(Math.random() * typ.length)];
     if (k > balance1.wallet) return citel.reply(`*☹️ You don't have enough money to pay incase you get caught*`);
-    if (k > balance2.wallet) return citel.reply(`*Sorry, your victim is too poor 🤷🏽‍♂️ let go🫤.*`);
+    if (k > balance2.wallet) return citel.reply(`*Sorry, your victim is Broke as fuck 🤷🏽‍♂️ let go🫤.*`);
     let tpy = random    
     switch (random) {
        
@@ -322,7 +322,7 @@ return await citel.reply(`🍀User: ${citel.pushName}\n\n_🪙${balance.bank}/${
         case 'caught':
            const rmoney = Math.floor(Math.random() * 1000)
            await eco.deduct(user1, "secktor", rmoney);
-           await citel.reply(`*Sorry FBI👮 caught up with you, you paid ${rmoney} 🪙 from wallet🥹.*`)
+           await citel.reply(`*Sorry FBI👮 caught up with you, you paid ${rmoney} 🪙 from wallet🥲.*`)
            ////citel.react('😦')
              break
 default:
