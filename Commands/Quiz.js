@@ -22,8 +22,8 @@ const quizQuestions = [
 
     {
         question: "WHO IS THE OWNER OF BLADE-MD?",
-        options: ["A. bladeh4x", "B. Alextv", "C. mike"],
-        correctAnswer: "B"
+        options: ["A. Bryanttech", "B. naruto uzumaki", "C. mike"],
+        correctAnswer: "A"
     },
 
     {
@@ -106,6 +106,7 @@ const _0x26f3fe=_0x392b;(function(_0x26fdc5,_0x14a606){const _0x35ac69=_0x392b,_
    { flag: "🇶🇦", country: "Qatar" },
    { flag: "🇷🇴", country: "Romania" },
    { flag: "🇷🇸", country: "Serbia" },
+   { flag: "🇬🇭", country: "Ghana"},
  ];
 
  let currentFlagIndex = 0;
