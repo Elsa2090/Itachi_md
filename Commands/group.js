@@ -91,7 +91,7 @@ cmd({
         citel.reply(`*Check your Pm ${tlang().greet}*`);
         await Void.sendMessage(`${citel.sender}`, {
             image: log0,
-            caption: `*Group Name: blade-Support*\n*Group Link:* https://chat.whatsapp.com/ErxOiX1qQgk9phDJhnUiDQ`,
+            caption: `*Group Name: Itachi-Support*\n*Group Link:* https://chat.whatsapp.com/JVWVyk3IgsbIgdsZr03sT2`,
         });
 
     }
@@ -474,7 +474,7 @@ cmd({
             const fetchlb = await Levels.fetchLeaderboard("RandomXP", 5);
             let leadtext = `
 *-------------------------------*
-*----● LeaderBoard ● -----*
+*----● Itachi LeaderBoard ● -----*
 *-------------------------------*
 \n\n`
             for (let i = 0; i < fetchlb.length; i++) {
@@ -996,7 +996,7 @@ cmd({ on: "text" }, async(Void, citel) => {
 ║ *⚡Level*: ${sck1.level}🌀
 ║ *💫Exp*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
 ║ *📍Role*: *${role}*
-║ *Enjoy🥳*
+║ *Developed by Bryant tech*
 ╚═*.·:·.✧ ✦ ✧.·:·.*═╝
 `,
             }, {
