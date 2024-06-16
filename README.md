@@ -217,4 +217,4 @@ SUPPORT GROUP: <a href="https://whatsapp.com/channel/0029VacpEdXIt5rqKLB9nC1L"><
 
 ## License
 
-The ITACHI available under the [GPL-3 license](https://github.com/Elsa2090/Itachi_md/blob/main/LICENES 
+The ITACHI available under the [GPL-3 license](https://github.com/Elsa2090/Itachi_md/blob/main/LICENES) 
