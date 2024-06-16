@@ -618,7 +618,7 @@ import {
     const choice = m.text.trim();
     
     if (choice === "1") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74b32f0d7c0571b2bf5bb.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/01fb8c58754a2e13a89e2.png' },
         caption: botmenu
       }, { quoted:fcontact });
       } else if (choice === "2") {
@@ -678,15 +678,15 @@ import {
         caption: toolsmenu
       }, { quoted:fcontact });
       } else if (choice === "16") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74b32f0d7c0571b2bf5bb.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/f0681406240f2540d2a6f.png' },
         caption: Aimenu
       }, { quoted:fcontact });
       } else if (choice === "17") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74b32f0d7c0571b2bf5bb.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: '' },
         caption: religionmenu
       }, { quoted:fcontact });
       } else if (choice === "18") {
-        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/74b32f0d7c0571b2bf5bb.jpg' },
+        await conn.sendMessage(m.chat, { image: { url: 'https://telegra.ph/file/199afacc76f49f95a5be1.png' },
         caption: pluginmenu
       }, { quoted:fcontact });
       } else {
