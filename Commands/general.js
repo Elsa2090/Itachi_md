@@ -33,11 +33,11 @@ cmd({
 
 //---------------------------------------------------------------------------
 cmd({
-    pattern: "chat",
+    pattern: "Itachi",
     alias :['gpt'],
     desc: "chat with an AI(GPT)",
     category: "AI",
-    use: '<Hii,blade>',
+    use: '<Hii,Bryant>',
     filename: __filename,
 },
 async(Void, citel,text) => {
@@ -136,13 +136,13 @@ cmd({
         let cap = `Hey ${citel.pushName}\n
 *⭐ Total Stars:* ${data.stargazers_count} stars
 *🍽️ Forks:* ${data.forks_count} forks
-*🍁 Repo:* https://github.com/Bladeh4x/BLADE-MD
-*Group:* https://chat.whatsapp.com/DLniUfYVWR50sbkZDR8tBI
-*public grp:* https://chat.whatsapp.com/HTTzf69NNqWEU2v2yc7r0E
-*scan Qr:* https://blade-0wz6.onrender.com/
-*youtube tt:* https://youtu.be/YLG9OYERa5I?si=1e5cbrtKVc8aL5BI
+*🍁 Repo:* https://github.com/Elsa2090/Itachi_md
+*Group:* https://chat.whatsapp.com/JVWVyk3IgsbIgdsZr03sT2
+*public grp:* https://chat.whatsapp.com/Il78gB57E7m94h1MGcMspv
+*scan Qr:* https://bryant-tech-bot-6caf875ac89b.herokuapp.com
+*youtube tt:* https://youtu.tube.com/@BryantXtech
 *Deploy Your Own:*-
-https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FBladeh4x%2FBLADE-MD&template=https%3A%2F%2Fgithub.com%2FBladeh4x%2FBLADE-MD`
+https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FBladeh4x%2FBLADE-MD&template=https%3A%2F%2Fgithub.com%2FElsa2090x%2FItachi_md
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -150,7 +150,7 @@ https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FBladeh4x%
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "Blade-Repo",
+                    title: "Itachi-Repo",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
