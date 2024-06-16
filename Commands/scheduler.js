@@ -14,6 +14,7 @@
      pattern: "amute",
      desc: "sets auto mute time in group.",
      category: "moderation",
+     reaction: " 🔕"
  },
  async(Void, citel, text,{ isCreator }) => {
      if (!isCreator) return citel.reply(tlang().owner)
@@ -37,6 +38,7 @@
     pattern: "aunmute",
     desc: "sets unmute time in group.",
     category: "moderation",
+    reaction: "🔈"
 },
 async(Void, citel, text,{ isCreator }) => {
     if (!isCreator) return citel.reply(tlang().owner)
