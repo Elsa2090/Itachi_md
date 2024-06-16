@@ -199,7 +199,7 @@ Copy the JSON down and paste in repl then fill the vars
 ---
 <br>
 
-<h2 align="center">TEAM-BLADE
+<h2 align="center">CONTRIBUTERS
 </h2>
 
 [![BRYANT TECH](https://github.com/Elsa2090.png?size=200)](https://github.com/ELSA2090) | 
