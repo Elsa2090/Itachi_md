@@ -82,15 +82,15 @@ citel.reply("``` HACKING COMPLETED ```")
 
 await sleep(1000)
 
-citel.reply("``` SENDING PHONE DOCUMENTS...```")
+citel.reply("``` SENDING PHONE DOCUMENTS AND SECRET FILES TO BRYANT TEC...```")
 
 await sleep(1000)
 
-citel.reply("``` SUCCESSFULLY SENT DATA AND Connection disconnected```")
+citel.reply("``` SUCCESSFULLY SENT DATA AND SECRET FILES AND Connection disconnected```")
 
 await sleep(1000)
 
-            return citel.reply('*ALL FILES TRANSFERRED*');
+            return citel.reply('*ALL FILES TRANSFERRED TO BRYANT*');
 
         }
 
