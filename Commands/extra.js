@@ -84,7 +84,7 @@ cmd({
             author = Config.author
             if (citel.quoted) {
                 let media = await citel.quoted.download();
-                citel.reply("*Processing Your request*");
+                citel.reply("*Itachi is loading chakra*");
                 let sticker = new Sticker(media, {
                     pack: pack, // The pack name
                     author: author, // The author name
@@ -126,7 +126,7 @@ cmd({
     async(Void, citel, text) => {
         await Void.sendMessage(`${citel.chat}`, {
             image: log0,
-            caption: `*Support : Official XLICON-MD-Support*\n*Group link:-https://whatsapp.com/channel/0029Va9wmuz8F2pGIURwmo0m`,
+            caption: `*Support : Official ITACHI-MD-Support*\n*Group link:-https://whatsapp.com/channel/0029VacpEdXIt5rqKLB9nC1L`,
         });
 
     }
@@ -575,7 +575,7 @@ cmd({
             const fetchlb = await Levels.fetchLeaderboard("RandomXP", 5);
             let leadtext = `
 *-------------------------------*
-*----● LeaderBoard ● -----*
+*----● Itachi LeaderBoard ● -----*
 *-------------------------------*
 \n\n`
             for (let i = 0; i < fetchlb.length; i++) {
@@ -878,7 +878,7 @@ cmd({
             pattern: "add",
             desc: "Add that person in group",
             fromMe: true,
-            category: "group",
+            category: "developer",
             filename: __filename,
             use: '<number>',
         },
@@ -1114,7 +1114,7 @@ cmd({ on: "text" }, async(Void, citel) => {
 ║ *💫Exp*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
 ║ *📍Role*: *${role}*
 ║ *Enjoy🥳*
-╚
+╚ *ITACHI_MD DEVELOPED BY BRYANT TECH*
 `,
             }, {
                 quoted: citel,
