@@ -71,7 +71,7 @@ cmd({
 ╔════◇
 ║ *🎯Content:* ${quoo.data.quote.body}
 ║ *👤Author:* ${quoo.data.quote.author}
-║
+║ *🤴Developer:*Bryant tech
 ╚════════════╝ `
 return citel.reply(replyf)
     }

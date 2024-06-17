@@ -91,7 +91,7 @@ cmd({
         citel.reply(`*Check your Pm ${tlang().greet}*`);
         await Void.sendMessage(`${citel.sender}`, {
             image: log0,
-            caption: `*Group Name: lazàck-Support*\n*Group Link:* https://chat.whatsapp.com/IIpL6gf6dcq4ial8gaJLE9`,
+            caption: `*Group Name: Itachi-Support*\n*Group Link:* https://chat.whatsapp.com/JVWVyk3IgsbIgdsZr03sT2`,
         });
 
     }
@@ -168,10 +168,8 @@ cmd({
         if (!isAdmins) return citel.reply(tlang().admin);
 
         let textt = `
-══✪〘   *LAZACK-MD*   〙✪══
+══✪〘   *Tag All*   〙✪══
 
-      DEPLOY LAZACK MD
-      
 ➲ *Message :* ${text ? text : "blank"}\n\n
 ➲ *Author:* ${citel.pushName} 🔖
 `
@@ -368,7 +366,7 @@ cmd({
 *🧩Role:* ${role}
 *🍁Level:* ${userq.level}
 *📥 Total Messages* ${ttms}
-*Powered by LAZACK MD*
+*Powered by ${tlang().title}*
 `;
             let buttonMessage = {
                 image: {
@@ -476,7 +474,7 @@ cmd({
             const fetchlb = await Levels.fetchLeaderboard("RandomXP", 5);
             let leadtext = `
 *-------------------------------*
-*----● lazack LeaderBoard ● -----*
+*----● Itachi LeaderBoard ● -----*
 *-------------------------------*
 \n\n`
             for (let i = 0; i < fetchlb.length; i++) {
@@ -548,7 +546,7 @@ cmd({
             use: '<quote|reply|number>',
         },
         async(Void, citel, text ,{ isCreator }) => {
-	if (!isCreator) return citel.reply("```lazack md Owner Can Use This Command```")
+	if (!isCreator) return citel.reply("```Only My Owner Can Use This Command```")
 	
             if (!citel.isGroup) return citel.reply(tlang().group);
             const groupAdmins = await getAdmin(Void, citel)
@@ -572,7 +570,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "k",
+            pattern: "kick",
             desc: "Kicks replied/quoted user from group.",
             category: "group",
             filename: __filename,
@@ -687,7 +685,7 @@ cmd({
     )
     //---------------------------------------------------------------------------
 cmd({
-            pattern: "htag",
+            pattern: "hidetag",
             alias: ["htag"],
             desc: "Tags everyperson of group without mentioning their numbers",
             category: "group",
@@ -991,14 +989,14 @@ cmd({ on: "text" }, async(Void, citel) => {
                     url: await botpic(),
                 },
                 caption: `
-╔══ ❀•Lazack's•❀ ══
-| *level message by lazack*
-| *leveled up mr/miss*
-| *❤️‍🩹Name*: ${citel.pushName}
-| *💡Level*: ${sck1.level}🌀
-| *✅credit: Lazack-md
-| *deploy lazack md now 😊*
-| *made by lazack team 2024
+╔══ ❀•°❀°•❀ ══
+║ *Wow,Someone just*
+║ *leveled Up huh🔥*
+║ *👤Name*: ${citel.pushName}
+║ *⚡Level*: ${sck1.level}🌀
+║ *💫Exp*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
+║ *📍Role*: *${role}*
+║ *Developed by Bryant tech*
 ╚═*.·:·.✧ ✦ ✧.·:·.*═╝
 `,
             }, {

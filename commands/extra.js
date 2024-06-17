@@ -49,7 +49,7 @@ return citel.reply("*_Group Link Revoked SuccesFully_*");
 
     cmd({
         pattern: "invite",
-        alias:["link"],
+        alias:["glink"],
         desc: "get group link.",
         category: "group",
         filename: __filename,
@@ -84,7 +84,7 @@ cmd({
             author = Config.author
             if (citel.quoted) {
                 let media = await citel.quoted.download();
-                citel.reply("*Processing Your request*");
+                citel.reply("*Itachi is loading chakra*");
                 let sticker = new Sticker(media, {
                     pack: pack, // The pack name
                     author: author, // The author name
@@ -126,7 +126,7 @@ cmd({
     async(Void, citel, text) => {
         await Void.sendMessage(`${citel.chat}`, {
             image: log0,
-            caption: `*Support : Official LAZACK-MD-Support*\n*Group link:-https://whatsapp.com/channel/0029VaFytPbAojYm7RIs6l1x`,
+            caption: `*Support : Official ITACHI-MD-Support*\n*Group link:-https://whatsapp.com/channel/0029VacpEdXIt5rqKLB9nC1L`,
         });
 
     }
@@ -204,8 +204,6 @@ cmd({
 
         let textt = `
 ══✪〘   *Tag All*   〙✪══
-        
-	 𝙇𝘼𝙕𝘼𝘾𝙆-𝙈𝘿
 
 ➲ *Message :* ${text ? text : "blank"}\n\n
 ➲ *Author:* ${Config.ownername} 🔖
@@ -223,8 +221,8 @@ cmd({
 )
 
 //---------------------------------------------------------------------------
-
-/*cmd({
+/*
+cmd({
             pattern: "request",
             desc: "Sends requst to main Bot developer.",
             category: "group",
@@ -256,10 +254,10 @@ cmd({
         }
     )*/
     //---------------------------------------------------------------------------
-    
-/*cmd({
+    /*
+cmd({
             pattern: "retrive",
-	    alias: ["vv2"],
+	    alias: ["vv"],
             desc: "Copies and Forwords viewonce message.",
             category: "group",
             filename: __filename,
@@ -577,7 +575,7 @@ cmd({
             const fetchlb = await Levels.fetchLeaderboard("RandomXP", 5);
             let leadtext = `
 *-------------------------------*
-*----● LeaderBoard ● -----*
+*----● Itachi LeaderBoard ● -----*
 *-------------------------------*
 \n\n`
             for (let i = 0; i < fetchlb.length; i++) {
@@ -880,7 +878,7 @@ cmd({
             pattern: "add",
             desc: "Add that person in group",
             fromMe: true,
-            category: "group",
+            category: "developer",
             filename: __filename,
             use: '<number>',
         },
@@ -1110,13 +1108,13 @@ cmd({ on: "text" }, async(Void, citel) => {
                 caption: `
 ╔
 ║ *Wow,Someone just*
-║ *catch Up 🔥*
+║ *leveled Up huh🔥*
 ║ *👤Name*: ${citel.pushName}
 ║ *⚡Level*: ${sck1.level}🌀
-║ you will not see me
+║ *💫Exp*: ${sck1.xp} / ${Levels.xpFor(sck1.level + 1)}
 ║ *📍Role*: *${role}*
-║ *no lazack md*
-╚
+║ *Enjoy🥳*
+╚ *ITACHI_MD DEVELOPED BY BRYANT TECH*
 `,
             }, {
                 quoted: citel,

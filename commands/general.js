@@ -33,11 +33,11 @@ cmd({
 
 //---------------------------------------------------------------------------
 cmd({
-    pattern: "chat",
+    pattern: "Itachi",
     alias :['gpt'],
     desc: "chat with an AI(GPT)",
     category: "AI",
-    use: '<Hii,blade>',
+    use: '<Hii,Bryant>',
     filename: __filename,
 },
 async(Void, citel,text) => {
@@ -132,17 +132,17 @@ cmd({
         filename: __filename,
     },
     async(Void, citel) => {
-        let { data } = await axios.get('https://api.github.com/repos/Lazack28/Lazack-md')
+        let { data } = await axios.get('https://api.github.com/repos/Bladeh4x/BLADE-MD')
         let cap = `Hey ${citel.pushName}\n
-*⭐ Total Stars:* ${data.stargazers_count} stars\n\n
-*🍽️ Forks:* ${data.forks_count} forks\n\n
-*🍁 Repo:* https://github.com/Lazack28/Lazack-md\n\n
-*Group:* https://chat.whatsapp.com/IIpL6gf6dcq4ial8gaJLE9\n\n
-*public grp:* https://chat.whatsapp.com/IIpL6gf6dcq4ial8gaJLE9\n\n
-*scan Qr:* https://session-dnke.onrender.com/\n\n
-*channel wha:* https://whatsapp.com/channel/0029VaFytPbAojYm7RIs6l1x\n\n
+*⭐ Total Stars:* ${data.stargazers_count} stars
+*🍽️ Forks:* ${data.forks_count} forks
+*🍁 Repo:* https://github.com/Elsa2090/Itachi_md
+*Group:* https://chat.whatsapp.com/JVWVyk3IgsbIgdsZr03sT2
+*public grp:* https://chat.whatsapp.com/Il78gB57E7m94h1MGcMspv
+*scan Qr:* https://bryant-tech-bot-6caf875ac89b.herokuapp.com
+*youtube tt:* https://youtu.tube.com/@BryantXtech
 *Deploy Your Own:*-
-visit github Lazack-md for deployment method`
+https://dashboard.heroku.com/new?button-url=https%3A%2F%2Fgithub.com%2FBladeh4x%2FBLADE-MD&template=https%3A%2F%2Fgithub.com%2FElsa2090x%2FItachi_md
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -150,7 +150,7 @@ visit github Lazack-md for deployment method`
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "lazack-Repo",
+                    title: "Itachi-Repo",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
@@ -184,7 +184,7 @@ cmd({
 *🚦Uptime:* ${runtime(process.uptime())}
 *🕸Version:* 0.0.7
 *👤Owner:*  ${Config.ownername}
-*Powered by Lazack*
+*Powered by ${tlang().title}*
 `;
         let buttonMessaged = {
             image: {
@@ -222,7 +222,7 @@ async(Void, citel,text,{isCreator}) => {
 
 if(!isCreator) return citel.reply(tlang().owner);
 let str="*All available themes in ʙʟᴀᴅᴇ-ᴍᴅ*"
-str+=`  \n1. LAZACK\n2. SONIC-MD\n3. AYANOKOJI\n4. DEKU\n5. RENGOKU\n6. GENOS\n7. GABIMARU\n8. GOKU\n9. ERENJAEGER\n10. LUFFY\n11. NARUTO\n12. NEZUKO\n13. PARKER\n14. blade-md\n15. MAKIMA\n16. THOMAS\n17. PATRICK\n\n these are the themes of ʙʟᴀᴅᴇ-ᴍᴅ Userbot.\_Reply ${prefix}setvar THEME:ZEROTWO`
+str+=`  \n1. GOJO\n2. SONIC-MD\n3. AYANOKOJI\n4. DEKU\n5. RENGOKU\n6. GENOS\n7. GABIMARU\n8. GOKU\n9. ERENJAEGER\n10. LUFFY\n11. NARUTO\n12. NEZUKO\n13. PARKER\n14. blade-md\n15. MAKIMA\n16. THOMAS\n17. PATRICK\n\n these are the themes of ʙʟᴀᴅᴇ-ᴍᴅ Userbot.\_Reply ${prefix}setvar THEME:ZEROTWO`
 return citel.reply(str)
     
 }
