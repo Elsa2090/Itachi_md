@@ -70,7 +70,7 @@ Deployments methods
    
 ### DEVELOPER:
 **GET In Touch with The Owner**
-- <a href="https://instagram.com/Bryant_Tech.1"><img title="Author" src="https://img.shields.io/badge/ON INSTAGRAM-gold?style=for-the-badge&logo=Instagram"></a>
+- <a href="https://youtube.com/BryantXtech"><img title="Author" src="https://img.shields.io/badge/ON YouTube-gold?style=for-the-badge&logo=YouTube"></a>
 OR 
 - <a href="https://wa.me/233530729233"><img title="Author" src="https://img.shields.io/badge/ON WHATSAPP-gold?style=for-the-badge&logo=WhatsApp"></a>
 <a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
@@ -101,10 +101,10 @@ OR
 <h4 align="left">
 ##𝐒𝐮𝐩𝐩𝐨𝐫𝐭 :
     
- ***Tap On Logo To follow my Instagram page***
+ ***Tap On Logo To follow subscribe to my YouTube page***
  <p align="left">
-  <a href="https://Instagram.com/@Bryant_tech.1">
-    <img src="https://telegra.ph/file/c946e5edb6474cd303acc.png" align="centre" width="90" />
+  <a href="https://Youtube.com/@BryantXtech">
+    <img src="https://telegra.ph/file/872071fd1eb567d1c4816.jpg" align="centre" width="90" />
    <a href="https://wa.me/233530729233?text=Hi%20Bryant%20tech...%20I%20need%20some%20help%20in%20Itachi Bot">
     <img src="https://telegra.ph/file/0f90e2faf230269cff419.jpg" align="centre" width="90" />
 
