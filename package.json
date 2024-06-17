@@ -1,13 +1,13 @@
 {
-  "name": "LAZACK-MD",
+  "name": "BLADE-MD",
   "version": "0.0.7",
-  "description": "Multi device whatsapp bot by team lazack.",
+  "description": "Multi device whatsapp bot by Blade.",
   "main": "lib/client.js",
   "type": "commonjs",
   "license": "GPL-3.0",
   "scripts": {
-    "start": "pm2 start lib/client.js --deep-monitoring --attach --name lazack",
-    "stop": "pm2 stop lazack"
+    "start": "pm2 start lib/client.js --deep-monitoring --attach --name BLADE",
+    "stop": "pm2 stop blade"
   },
   "author": "Alextv",
   "dependencies": {
@@ -74,10 +74,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Lazack28/Lazack-md.git"
+    "url": "git+https://github.com/Bladeh4x/BLADE-MD.git"
   },
   "bugs": {
-    "url": "https://github.com/Lazack28/Lazack-md/issues"
+    "url": "https://github.com/Bladeh4x/BLADE-MD/issues"
   },
-  "homepage": "https://github.com/Lazack28/Lazack-md#readme"
+  "homepage": "https://github.com/Bladeh4x/BLADE-MD#readme"
 }
