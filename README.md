@@ -103,7 +103,7 @@ OR
     
  ***Tap On Logo To follow my Instagram page***
  <p align="left">
-  <a href="https://Instagram.com/@BryantXtech">
+  <a href="https://Instagram.com/@Bryant_tech.1">
     <img src="https://telegra.ph/file/c946e5edb6474cd303acc.png" align="centre" width="90" />
    <a href="https://wa.me/233530729233?text=Hi%20Bryant%20tech...%20I%20need%20some%20help%20in%20Itachi Bot">
     <img src="https://telegra.ph/file/0f90e2faf230269cff419.jpg" align="centre" width="90" />
