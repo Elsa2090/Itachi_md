@@ -85,7 +85,7 @@ OR
 | [BryantXtech](https://github.com/Elsa2090) |
 | Owner, Developer, Maintainer, updates|
 
-| [Lzack](https://github.com/Lazack28) |
+| [Lazack](https://github.com/Lazack28) |
 | maintainer and helpers|
 
 
