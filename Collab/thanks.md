@@ -1,6 +1,6 @@
-lazack md is a base bot from sector md...
+Itachi md is a base bot from Lazack md...
 
-keep using  amd fork the repo
+keep using  and fork the repo
 
 
 
@@ -8,8 +8,8 @@ All of the groups will be closed soon join the new group now
 
 
 
+https://chat.whatsapp.com/JVWVyk3IgsbIgdsZr03sT2
 
-https://chat.whatsapp.com/IIpL6gf6dcq4ial8gaJLE9
 
 
 
