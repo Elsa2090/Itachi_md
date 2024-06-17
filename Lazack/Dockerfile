@@ -1,6 +1,6 @@
 FROM quay.io/maherzubair/sigma-md:beta
-RUN git clone https://github.com/Elsa2090/Itachi_md /root/Itachi_md
-WORKDIR /root/Itachi_md/
+RUN git clone https://github.com/Lazack28/Lazack-md /root/Lazack-md
+WORKDIR /root/Lazack-md/
 RUN npm install npm@latest
 RUN npm install
 EXPOSE 8000
