@@ -74,7 +74,7 @@ Deployments methods
 
 💻 ***ITACHI-MD DEVELOPER TEAM* *2024***
   
-| [Lazack](https://github.com/Elsa2090) |
+| [BryantXtech](https://github.com/Elsa2090) |
 | Owner, Developer, Maintainer, updates|
 
 | [Lzack](https://github.com/Lazack28) |
