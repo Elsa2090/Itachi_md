@@ -1,3 +1,3 @@
-worker: node gifted.js
+worker: node Itachi.js
 
 
