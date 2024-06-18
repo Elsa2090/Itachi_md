@@ -1,9 +1,9 @@
 {
-  "name":"gifted-md@4.0.0",
-  "description":"A MultiDevice WhatsApp Bot Created by Gifted Tech",
+  "name":"ITACHI_MD",
+  "description":"A MultiDevice WhatsApp Bot Created by Bryant Tech",
   "keywords":["bot","node","baileys","whatsapp"],
-  "logo":"https://telegra.ph/file/a202f454c9532c3f5b7f8.jpg",
-  "repository":"https://github.com/mouricedevs/Gifted-Md",
+  "logo":"https://telegra.ph/file/7c111d5217de231810d3c.png",
+  "repository":"https://github.com/Elsa2090/Itachi_md",
   "succes_url":"/",
 "stack":"heroku-22",
 
@@ -23,7 +23,7 @@
     "AUTO_READ_STATUS":
     {
       "description":"Your contact status will be read automatically(type yes to active or no to deactive  ; don't write in capital letter)",
-      "value":"yes",
+      "value":"no",
       "required":false
     }, "AUTO_DOWNLOAD_STATUS":
     {
@@ -42,21 +42,21 @@
     "BOT_NAME" : {
 
       "description":"put A name for your bot",
-      "value":"GIFTED-MD",
+      "value":"ITACHI-MD",
       "required":false
 
     } ,
      "BOT_MENU_LINKS" : {
 
       "description":"add one or many link for your bot menu  ; eg : url1,url2,url3.....",
-      "value":"https://telegra.ph/file/a202f454c9532c3f5b7f8.jpg",
+      "value":"https://telegra.ph/file/4fe650c8f988ba7fdb92d.mp4",
       "required":false
 
      },
     "PUBLIC_MODE":
     {
       "description":"type yes to put your bot on public mode or no to put it on private mod",
-      "value":"no",
+      "value":"yes",
       "required":false
     }
         ,
@@ -81,20 +81,20 @@
 
     "desc": "Your Name",
     "required": false,
-    "value": "Gifted Tech"
+    "value": "Bryant Tech"
   },
     "OWNER_NUMBER":
   {
 
-    "desc": "Your number , dont put '+' and put you area code(exemple of togo '228')",
+    "desc": "Your number , dont put '+' and put you area code(exemple of togo '233')",
     "required":false,
-    "value": "254728782591,254762016957"
+    "value": "233530729233"
   },
     "WARN_COUNT":
   {
     "desc": "this is the limit of warn for warning commandes",
     "required": false,
-    "value": "5"
+    "value": "3"
   },
     "CHAT_BOT":
     {
