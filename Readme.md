@@ -10,7 +10,13 @@ src="https://telegra.ph/file/867d8bba1c405ec21df60.jpg">
  <a aria-label="𝚰𝚻𝚫𝐂𝚮𝚰 𝚩𝚯𝚻 𝚳𝐃 𝚰𝐒 𝐅𝚪𝚵𝚵 𝚻𝚯 𝐔𝐒𝚵" href="htts://github.com/Elsa2090/Itachi_md" target="_blank">
   
 
-<p align="center"><img src="https://profile-counter.Itachi.me/{mouricedevs}/count.svg" alt=".𝚰𝚻𝚫𝐂𝚮𝚰 :: Visitor's Count" /></p>
+## 𝐅𝐎𝐋𝐋𝐎𝐖 𝐓𝐇𝐄 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑👇
+
+<br/> <div align="center">
+[![github](https://github.com/github.png?size=150)](https://github.com/Elsa2090)
+
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
+<a><img src='https://i.imgur.com/LyHic3i.gif'/></a>
 
 ---
 
