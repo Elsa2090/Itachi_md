@@ -69,7 +69,7 @@ async(Void, citel, text,{ isCreator }) => {
       let num = citel.sender;
   
       var welcome_messages = text.replace(/@pp/g, '').replace(/@user/gi, `@${num.split("@")[0]}`).replace(/@gname/gi, metadata.subject).replace(/@desc/gi, metadata.desc);
-      try {  ppuser = await Void.profilePictureUrl(num, 'image') }catch { ppuser = 'https://telegra.ph/file/93f1e7e8a1d7c4486df9e.jpg' ; }
+      try {  ppuser = await Void.profilePictureUrl(num, 'image') }catch { ppuser = 'https://telegra.ph/file/c2a6bd3afa830cf5f57ca.jpg' ; }
       return await Void.sendMessage(citel.chat, { image: { url: ppuser }, caption: welcome_messages,} )
 
 
@@ -107,7 +107,7 @@ async(Void, citel, text,{ isCreator }) => {
     var ppuser;
     let num = citel.sender;
     var goodbye_messages = text.replace(/@pp/g, '').replace(/@user/gi, `@${num.split("@")[0]}`).replace(/@gname/gi, metadata.subject).replace(/@desc/gi, metadata.desc);
-    try {  ppuser = await Void.profilePictureUrl(num, 'image') }catch { ppuser = 'https://telegra.ph/file/93f1e7e8a1d7c4486df9e.jpg' ; }
+    try {  ppuser = await Void.profilePictureUrl(num, 'image') }catch { ppuser = 'https://telegra.ph/file/2d33e62d14adee121e34c.jpg' ; }
 
         return await Void.sendMessage(citel.chat, { image: { url: ppuser }, caption: goodbye_messages, })
 
@@ -330,7 +330,7 @@ async(Void, citel, text) => {
 ║ *👤Num :* ${num}
 ║ *🎐Bio    :*  ${bioo}
 ║ *🌟SetAt :* ${setAt}
-║    *THANKS TO BRYANT TECH🥳*    ◇
+║    *Keep Calm Dude🥳*    ◇
 ╚════════════════╝
 `,
             },{quoted:citel});
@@ -603,7 +603,7 @@ return citel.reply(`Give me Query Like :  ${prefix}calc add;10;50 `);
                  video: {
                      url: text.split(" ")[0],
                  },
-                 caption: "*HERE WE GO ITACHI PLAYLIST*",
+                 caption: "*HERE WE GO*",
                  contextInfo: {
                      externalAdReply: {
                          title: tlang().title,
@@ -683,7 +683,7 @@ const buffer = await sticker.toBuffer();
  
 
  cmd({
-             pattern: "ITACHI",
+             pattern: "chatbot",
              alias : ["chatbot"],
              desc: "activates and deactivates chatbot.\nuse buttons to toggle.",
              category: "misc",
@@ -697,25 +697,25 @@ const buffer = await sticker.toBuffer();
              {
                  case "on":
                      {
-                         if (chatbott.worktype == "true") return citel.reply("* sharingan is already working.*")
+                         if (chatbott.worktype == "true") return citel.reply("*chatbot was already enabled.*")
                          await chatbot.updateOne({ id: 'chatbot' }, { worktype: "true" })
-                         return await citel.reply('*Sharingan activated successfully.*')   
+                         return await citel.reply('*chatbot Activated successfully.*')   
                      }
                      break
                  case "off":
                      {
-                                if (chatbott.worktype == "false") return citel.reply("*Sharingan was already deactivatd.*")
+                                if (chatbott.worktype == "false") return citel.reply("*chatbot was already disabled.*")
                                 await chatbot.updateOne({ id: 'chatbot' }, { worktype: "false" })
-                                return await citel.reply('*Sharingan deactivated successfully.*')
+                                return await citel.reply('*chatbot deactivated successfully.*')
                      }
                      break
                  default:
                      {
-                        if (chatbott.worktype == "false") return await citel.reply(`*Blade Itachi Status : False* \n*blade Itachi Disabled Yet, _To Enable Type : .Itachi on_*`)
-                        else return await citel.reply("*Itachi Status : True* \n*Itachi Enabled Yet, _To Disable Type : .Itachi off_*")
+                        if (chatbott.worktype == "false") return await citel.reply(`*Blade Chatbot Status : False* \n*blade Chatbot Disabled Yet, _To Enable Type : .chatbot on_*`)
+                        else return await citel.reply("*Chatbot Status : True* \n*Chatbot Enabled Yet, _To Disable Type : .chatbot off_*")
                         /*
-                            let buttons = [{  buttonId: `${prefix}Itachi on`,   buttonText: {   displayText: "Turn On" },  type: 1, },
-                                          {   buttonId: `${prefix}Itachi off`,  buttonText: { displayText: "Turn Off" },   type: 1, }];
+                            let buttons = [{  buttonId: `${prefix}chatbot on`,   buttonText: {   displayText: "Turn On" },  type: 1, },
+                                          {   buttonId: `${prefix}chatbot off`,  buttonText: { displayText: "Turn Off" },   type: 1, }];
                                            
                             await Void.sendButtonText(citel.chat, buttons, `Blade Status: ${chatbott.worktype} `, Config.botname, citel);
                         */
