@@ -29,7 +29,7 @@ src="https://telegra.ph/file/867d8bba1c405ec21df60.jpg">
 
 ---
 
- <h3>.Bryant tech Stats</h3>
+ <h3>Bryant tech Stats</h3>
 
 ![Itachi_md Stats](https://github-readme-stats.vercel.app/api/pin/?username=Elsa2090&repo=Itachi-md&show_owner=true&theme=dark)
 
