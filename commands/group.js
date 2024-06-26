@@ -168,9 +168,9 @@ cmd({
         if (!isAdmins) return citel.reply(tlang().admin);
 
         let textt = `
-══✪〘   *LAZACK-MD*   〙✪══
+══✪〘   *𝗜𝗧𝗔𝗖𝗛𝗜 𝗠𝗗*   〙✪══
 
-      DEPLOY LAZACK MD
+      𝗗𝗘𝗣𝗟𝗢𝗬 𝗜𝗧𝗔𝗖𝗛𝗜 𝗠𝗗
       
 ➲ *Message :* ${text ? text : "blank"}\n\n
 ➲ *Author:* ${citel.pushName} 🔖
@@ -368,7 +368,7 @@ cmd({
 *🧩Role:* ${role}
 *🍁Level:* ${userq.level}
 *📥 Total Messages* ${ttms}
-*Powered by LAZACK MD*
+*Powered by 𝗕𝗥𝗬𝗔𝗡𝗧 𝗧𝗘𝗖𝗛*
 `;
             let buttonMessage = {
                 image: {
@@ -476,7 +476,7 @@ cmd({
             const fetchlb = await Levels.fetchLeaderboard("RandomXP", 5);
             let leadtext = `
 *-------------------------------*
-*----● lazack LeaderBoard ● -----*
+*----● 𝗜𝘁𝗮𝗰𝗵𝗶 𝗺𝗱 LeaderBoard ● -----*
 *-------------------------------*
 \n\n`
             for (let i = 0; i < fetchlb.length; i++) {
@@ -991,14 +991,14 @@ cmd({ on: "text" }, async(Void, citel) => {
                     url: await botpic(),
                 },
                 caption: `
-╔══ ❀•Lazack's•❀ ══
-| *level message by lazack*
+╔══ ❀•𝗜𝗧𝗔𝗖𝗛𝗜•❀ ══
+| *level message by 𝗜𝘁𝗮𝗰𝗵𝗶*
 | *leveled up mr/miss*
 | *❤️‍🩹Name*: ${citel.pushName}
 | *💡Level*: ${sck1.level}🌀
-| *✅credit: Lazack-md
-| *deploy lazack md now 😊*
-| *made by lazack team 2024
+| *✅credit: 𝔹ℝ𝕐𝔸ℕ𝕋 𝕋𝔼ℂℍ
+| *DEPLOY ITACHI MD NOW😊*
+| *𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳 𝙱𝚈 𝙱𝚁𝚈𝙰𝙽𝚃 𝚃𝙴𝙲𝙷
 ╚═*.·:·.✧ ✦ ✧.·:·.*═╝
 `,
             }, {
