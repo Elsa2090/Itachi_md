@@ -37,8 +37,8 @@
 ---
 ***Scan QR Code***
 
-1. ***Get [SESSION-ID](https://session-dnke.onrender.com/qr) by pairing code. `Whatapp>Three dots>Linked Devices****
-2. . ***GET [PAIR CODE](https://chat.whatsapp.com/IIpL6gf6dcq4ial8gaJLE9) currently not working please use session id cause it works best***
+1. ***Get [SESSION-ID](https://bryant-tech-bot-6caf875ac89b.herokuapp.com) by pairing code. `Whatapp>Three dots>Linked Devices****
+2. . ***GET [PAIR CODE](https://bryant-tech-bot-6caf875ac89b.herokuapp.com)***
 --- 
  ***Fork Repo***
 2. ***Click [FORK](https://github.com/Elsa2090/Itachi_md/fork)***
