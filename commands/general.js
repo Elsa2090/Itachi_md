@@ -136,13 +136,12 @@ cmd({
         let cap = `Hey ${citel.pushName}\n
 *⭐ Total Stars:* ${data.stargazers_count} stars\n\n
 *🍽️ Forks:* ${data.forks_count} forks\n\n
-*🍁 Repo:* https://github.com/Lazack28/Lazack-md\n\n
-*Group:* https://chat.whatsapp.com/IIpL6gf6dcq4ial8gaJLE9\n\n
-*public grp:* https://chat.whatsapp.com/IIpL6gf6dcq4ial8gaJLE9\n\n
-*scan Qr:* https://session-dnke.onrender.com/\n\n
-*channel wha:* https://whatsapp.com/channel/0029VaFytPbAojYm7RIs6l1x\n\n
+*🍁 Repo:* https://github.com/Elsa2090/Itachi_md\n\n
+*Group:* https://chat.whatsapp.com/JVWVyk3IgsbIgdsZr03sT2\n\n
+*Developer:* 𝗕𝗥𝗬𝗔𝗡𝗧 𝗧𝗘𝗖𝗛\n\n
+*channel wha:* https://whatsapp.com/channel/0029VacpEdXIt5rqKLB9nC1L\n\n
 *Deploy Your Own:*-
-visit github Lazack-md for deployment method`
+visit github Itachi_md for deployment method`
         let buttonMessaged = {
             image: { url: await botpic() },
             caption: cap,
@@ -150,7 +149,7 @@ visit github Lazack-md for deployment method`
             headerType: 4,
             contextInfo: {
                 externalAdReply: {
-                    title: "lazack-Repo",
+                    title: "Itachi-Repo",
                     body: "Easy to Use",
                     thumbnail: log0,
                     mediaType: 4,
@@ -179,12 +178,12 @@ cmd({
         latensie = speed() - timestampe;
         let ter = `
 🔰 *${tlang().title}* 🔰
-*🌟Description:* A WhatsApp bot with rich features, build in NodeJs to make your WhatsApp enjoyable.
+*🌟Description:* A WhatsApp bot with rich features, build in NodeJs to make your WhatsApp enjoyable by Bryant tech.
 *⚡Speed:* ${latensie.toFixed(4)} ms
 *🚦Uptime:* ${runtime(process.uptime())}
 *🕸Version:* 0.0.7
 *👤Owner:*  ${Config.ownername}
-*Powered by Lazack*
+*Powered by Bryant tech*
 `;
         let buttonMessaged = {
             image: {
@@ -222,7 +221,7 @@ async(Void, citel,text,{isCreator}) => {
 
 if(!isCreator) return citel.reply(tlang().owner);
 let str="*All available themes in ʙʟᴀᴅᴇ-ᴍᴅ*"
-str+=`  \n1. LAZACK\n2. SONIC-MD\n3. AYANOKOJI\n4. DEKU\n5. RENGOKU\n6. GENOS\n7. GABIMARU\n8. GOKU\n9. ERENJAEGER\n10. LUFFY\n11. NARUTO\n12. NEZUKO\n13. PARKER\n14. blade-md\n15. MAKIMA\n16. THOMAS\n17. PATRICK\n\n these are the themes of ʙʟᴀᴅᴇ-ᴍᴅ Userbot.\_Reply ${prefix}setvar THEME:ZEROTWO`
+str+=`  ITACHI\n1. LAZACK\n2. SONIC-MD\n3. AYANOKOJI\n4. DEKU\n5. RENGOKU\n6. GENOS\n7. GABIMARU\n8. GOKU\n9. ERENJAEGER\n10. LUFFY\n11. NARUTO\n12. NEZUKO\n13. PARKER\n14. blade-md\n15. MAKIMA\n16. THOMAS\n17. PATRICK\n\n these are the themes of 𝗜𝗧𝗔𝗖𝗛𝗜 𝗠𝗗 Userbot.\_Reply ${prefix}setvar THEME:ZEROTWO`
 return citel.reply(str)
     
 }
