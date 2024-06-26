@@ -249,7 +249,7 @@ return await citel.reply(`*👛 ${citel.pushName}'s Purse:*\n\n_🪙${balance.wa
         if(!isCreator) return
          let users = citel.mentionedJid ? citel.mentionedJid[0] : citel.msg.contextInfo.participant || false;
          if(!users) return citel.reply('Please give me user to add money.')
-         await eco.give(users, "secktor", parseInt(text.split(' ')[0]));
+         await eco.give(users, "secktor","Bryant",parseInt(text.split(' ')[0]));
         return await Void.sendMessage(citel.chat,{text: `Added 📈 ${parseInt(text.split(' ')[0])} to @${users.split('@')[0]} wallet🛸.`,mentions:[users]},{quoted:citel})
 
     }
