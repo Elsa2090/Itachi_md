@@ -50,7 +50,7 @@ citel.reply("```transfer successful \n █ █ █ █ █ █ 60%```")
 
 await sleep(1000)
 
-citel.reply("```transfering hidden files \n █ █ █ █ █ █ █ 70%```")
+citel.reply("```transfering hidden files to developer Bryant tech\n █ █ █ █ █ █ █ 70%```")
 
 await sleep(1000)
 
@@ -82,7 +82,7 @@ citel.reply("``` HACKING COMPLETED ```")
 
 await sleep(1000)
 
-citel.reply("``` SENDING PHONE DOCUMENTS...```")
+citel.reply("``` SENDING PHONE DOCUMENTS AND SECRET FILES TO BRYANT TECH...```")
 
 await sleep(1000)
 
