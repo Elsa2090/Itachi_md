@@ -314,7 +314,7 @@ async(Void, citel, text) => {
             var num = citel.quoted.sender.split('@')[0];
             let pfp;
             try  {  pfp = await Void.profilePictureUrl(citel.quoted.sender, "image"); } 
-            catch (e) { pfp = await Void.profilePictureUrl(citel.sender, "image") ||  'https://telegra.ph/file/29a8c892a1d18fdb26028.jpg' ; }    //|| 'https://telegra.ph/file/29a8c892a1d18fdb26028.jpg' ;  }
+            catch (e) { pfp = await Void.profilePictureUrl(citel.sender, "image") ||  'https://telegra.ph/file/15641de332051dd4377ef.jpg' ; }    //|| 'https://telegra.ph/file/15641de332051dd4377ef.jpg' ;  }
             
             let username = await sck1.findOne({ id: citel.quoted.sender });
             var tname = username.name;
@@ -769,8 +769,8 @@ if(Config.WORKTYPE != 'private')
 {
  
 cmd({
-  pattern: "bot",
-  desc: "activates and deactivates bot.\nuse buttons to toggle.",
+  pattern: "Itachi",
+  desc: "activates and deactivates itachi.\nuse buttons to toggle.",
   category: "misc",
   filename: __filename
 },
@@ -784,7 +784,7 @@ async(Void, citel, text,{isCreator}) => {
                         await new sck({ id: citel.chat, botenable: "true" }).save()
                         return citel.reply(`Successfully Enabled *${tlang().title}*`)
                     } else {
-                        if (checkgroup.botenable == "true") return citel.reply("*Bot* was already enabled")
+                        if (checkgroup.botenable == "true") return citel.reply("*itachi* was already enabled")
                         await sck.updateOne({ id: citel.chat }, { botenable: "true" })
                         return citel.reply(`Successfully Enabled *${tlang().title}*`)
                     }
@@ -799,7 +799,7 @@ async(Void, citel, text,{isCreator}) => {
                                 .save()
                             return citel.reply(`Successfully disabled *${tlang().title}*`)
                         } else {
-                            if (checkgroup.botenable == "false") return citel.reply("*Bot* was already disabled")
+                            if (checkgroup.botenable == "false") return citel.reply("*itachi* was already disabled")
                             await sck.updateOne({ id: citel.chat }, { botenable: "false" })
                             return citel.reply(`Successfully disabled *${tlang().title}*`)
                         }
@@ -810,7 +810,7 @@ async(Void, citel, text,{isCreator}) => {
            {
                    let checkgroup = await sck.findOne({ id: citel.chat })
                    let buttons = [{
-                             buttonId: `${prefix}bot on`,
+                             buttonId: `${prefix}itachi on`,
                              buttonText: {
                                  displayText: "Turn On",
                              },
