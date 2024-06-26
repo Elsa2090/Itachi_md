@@ -1,15 +1,15 @@
-lazack md is a base bot from sector md...
+Itachi md is a base bot from sector md...
 
 keep using  amd fork the repo
 
 
 
-All of the groups will be closed soon join the new group now
+Join my channel 
 
 
 
 
-https://chat.whatsapp.com/IIpL6gf6dcq4ial8gaJLE9
+https://whatsapp.com/channel/0029VacpEdXIt5rqKLB9nC1L
 
 
 
@@ -23,19 +23,19 @@ Hey 👋 users
 
 *⭐ Total Stars:* 16 stars
 
-*🍽️ Forks:* 51 forks
+*🍽️ Forks:* 5 forks
 
-*🍁 Repo:* https://github.com/Lazack28/Lazack-md
-*Group:* https://chat.whatsapp.com/IIpL6gf6dcq4ial8gaJLE9
+*🍁 Repo:* https://github.com/Elsa2090/Itachi_md
+*channel:*
 
 *public grp:* https://chat.whatsapp.com/IIpL6gf6dcq4ial8gaJLE9
 
 *scan Qr:* https://session-dnke.onrender.com/
 
-*channel wha:* https://whatsapp.com/channel/0029VaFytPbAojYm7RIs6l1x
+*channel wha:* https://whatsapp.com/channel/0029VacpEdXIt5rqKLB9nC1L
 
 *Deploy Your Own:*-
-visit github Lazack-md for deployment method
+visit github Itachi-md for deployment method
 
 *MONGODB_URI*
 
