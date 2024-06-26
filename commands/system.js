@@ -338,20 +338,20 @@ cmd({
             desc: "is bot alive??"
         },
         async(Void, citel, text, isAdmins) => {
-            let alivemessage = Config.ALIVE_MESSAGE || `*𝐋𝐀𝐙𝐀𝐂𝐊 𝐌𝐃 𝐁𝐎𝐓 𝐂𝐑𝐄𝐀𝐓𝐄𝐃 𝐁𝐘 𝐋𝐀𝐙𝐀𝐂𝐊 𝐅𝐄𝐄𝐋 𝐅𝐑𝐄𝐄 𝐓𝐎 𝐔𝐒𝐄 𝐈𝐓, 𝐅𝐎𝐑𝐊 𝐀𝐍𝐃 𝐆𝐈𝐕𝐄 𝐌𝐄 𝐀 𝐒𝐓𝐀𝐑.*`
+            let alivemessage = Config.ALIVE_MESSAGE || `*𝗜𝗧𝗔𝗖𝗛𝗜 𝐌𝐃 𝐁𝐎𝐓 𝐂𝐑𝐄𝐀𝐓𝐄𝐃 𝐁𝐘 𝗕𝗥𝗬𝗔𝗡𝗧 𝗧𝗘𝗖𝗛 𝐅𝐄𝐄𝐋 𝐅𝐑𝐄𝐄 𝐓𝐎 𝐔𝐒𝐄 𝐈𝐓, 𝐅𝐎𝐑𝐊 𝐀𝐍𝐃 𝐆𝐈𝐕𝐄 𝐌𝐄 𝐀 𝐒𝐓𝐀𝐑.*`
             const alivtxt = `
 *Hello, ${citel.pushName},*
-_This is  𝙇𝘼𝙕𝘼𝘾𝙆-𝙈𝘿_
+_This is  𝗜𝗧𝗔𝗖𝗛𝗜-𝗠𝗗_
 ${alivemessage}
 
 *Version:-* _1.9.2_
 *Uptime:-* _${runtime(process.uptime())}_
-*Owner:-* _LAZACK28_
+*Owner:-* _BRYANTTECH_
 *Branch:-* _${Config.BRANCH}_
 
 _Type ${prefix}menu for my command list._
 
-_Powered by Lazack28 team_
+_Powered by Bryant tech_
 `;
             let aliveMessage = {
                 image: {
