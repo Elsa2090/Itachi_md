@@ -13,7 +13,7 @@ Secktor.cmd({
             alias: ["menu"],
             desc: "Help list",
             category: "general",
-            react: "📃",
+            react: "👨‍💻",
             filename: __filename
         },
         async(Void, citel, text) => {
@@ -21,7 +21,7 @@ Secktor.cmd({
             if (text.split(" ")[0]) {
                 let arr = [];
                 const cmd = commands.find((cmd) => cmd.pattern === (text.split(" ")[0].toLowerCase()))
-                if (!cmd) return await citel.reply("*😔No Such commands.*");
+                if (!cmd) return await citel.reply("*Read the bots menu🙂.*");
                 else arr.push(`*🍁Command:* ${cmd.pattern}`);
                 if (cmd.category) arr.push(`*✨Category:* ${cmd.category}`);
                 if (cmd.alias) arr.push(`*⚡️Alias:* ${cmd.alias}`);
@@ -42,23 +42,23 @@ Secktor.cmd({
                     .locale('id')
                 const date = moment.tz('asia/Islamabad').format('DD/MM/YYYY')
                 let total = await sck1.countDocuments()
-                let str = `––-〘  LAZACK MD  〙–––\n`
+                let str = `––-【  𓃮𝗜𝗧𝗔𝗖𝗛𝗜 𝗠𝗗𓃮  】–––\n`
                 str +=
                    '```' + `
 ─────᭓᭓᭓᭓᭓──── 
 ▋ ➪ 𝐔𝐬𝐞𝐫: ${citel.pushName} 
 ▋ ➪ 𝐏𝐫𝐞𝐟𝐢𝐱𝐞: 〘 ${prefix} 〙
-▋ ➪ 𝐎𝐰𝐧𝐞𝐫: LAZACK28 
+▋ ➪ 𝐎𝐰𝐧𝐞𝐫: 𝗕𝗿𝘆𝗮𝗻𝘁 𝘁𝗲𝗰𝗵 
 ▋ ➪ 𝐏𝐥𝐮𝐠𝐢𝐧𝐬: ${commands.length} 
 ▋ ➪ 𝐔𝐩𝐭𝐢𝐦𝐞: ${runtime(process.uptime())} 
 ─────᭓᭓᭓᭓᭓──── 
 
-        Moded by Lazack28
+        𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳 𝙱𝚈 𝙱𝚁𝚈𝙰𝙽𝚃 𝚃𝙴𝙲𝙷
 © 2024
 ✞᭓᭓᭓᭓᭓᭓᭓᭓᭓᭓᭓᭓᭓᭓᭓᭓᭓↰✞
-currently working on Lazack md v2
+currently working on 𝗜𝘁𝗮𝗰𝗵𝗶 𝗺𝗱 𝘃𝟮
 ✞᭓᭓᭓᭓᭓᭓᭓᭓᭓᭓᭓᭓᭓᭓᭓᭓᭓↰✞
-™Lazack28
+™𝙱𝚁𝚈𝙰𝙽𝚃 𝚃𝙴𝙲𝙷
 ––––––––––––\n
 ` + '```'
                 for (const category in cmds) 
@@ -74,7 +74,7 @@ currently working on Lazack md v2
                    }
  
                 }
-                str+= `_LAZACK MD MODDED BY LAZACK28_\n\n*CREDIT TO LAZACK28* `
+                str+= `_ITACHI MD DEVELOPED BY BRYANT TECH_\n\n*CREDIT TO BRYANT TECH* `
                 let buttonMessaged = {
                     image: { url: await botpic() },
                     caption: str
@@ -92,19 +92,19 @@ Secktor.cmd({
         async(Void, citel) => {
             const { commands } = require('../lib');
             let str = `
-┏━━━━━•❃〘LAZACK-MD〙❃•━━━━━┓`
+┏━━━━━•⌦【𓃮𝗜𝗧𝗔𝗖𝗛𝗜 𝗠𝗗𓃮】 ⌫•━━━━━┓`
             str += `
-┃ ⛥┏━━━━━•❃°•°•━━━━━•❃°•°•      
+┃ ⛥┏━━━━━•⌦°•°•━━━━━•⌫°•°•      
 •͙͙✧⃝•͙ User: ${citel.pushName}
 •͙͙✧⃝•͙ Theme: ${tlang().title}
 •͙͙✧⃝•͙│ Prefix: ${prefix}
-•͙͙✧⃝•͙ Owner: lazack
+•͙͙✧⃝•͙ Owner: Bryant tech
 •͙͙✧⃝•͙ Commands: ${commands.length}
 •͙͙✧⃝•͙ Uptime: ${runtime(process.uptime())}
 •͙͙✧⃝•͙ Mem: ${formatp(os.totalmem() - os.freemem())}/${formatp(os.totalmem())}
 •͙͙✧⃝•͙  
 •͙͙✧⃝┗━━━━━•❃°•°•━━━━━•❃°•°•
-┗━━━━━•❃°•°•━━━━━•❃°•°•\n`
+┗━━━━━•⌦°•°•━━━━━•⌫°•°•\n`
 for (let i = 0; i < commands.length; i++) 
 {
      if(commands[i].pattern==undefined) continue
@@ -164,7 +164,7 @@ async(Void, citel, text) => {
  const { commands } = require('../lib');
  let arr = [];
         const cmd = commands.find((cmd) => cmd.pattern === (text.split(" ")[0].toLowerCase()))
-        if (!cmd) return await citel.reply("*😔No Such commands.*");
+        if (!cmd) return await citel.reply("*Read the bots menu🙂.*");
         else arr.push(`*📡Command:* ${cmd.pattern}`);
         if (cmd.category) arr.push(`*🧩Type:* ${cmd.category}`);
         if(cmd.filename) arr.push(`✨FileName: ${cmd.filename}`)
