@@ -245,16 +245,20 @@ return await citel.reply(`*👛 ${citel.pushName}'s Purse:*\n\n_🪙${balance.wa
         filename: __filename,
         react: "💷"
     },
-    async(Void, citel, text,{ isCreator }) => {
-        if(!isCreator) return
-         let users = citel.mentionedJid ? citel.mentionedJid[0] : citel.msg.contextInfo.participant || false;
-         if(!users) return citel.reply('Please give me user to add money.')
-         await eco.give(users, "secktor","Bryant",parseInt(text.split(' ')[0]));
-        return await Void.sendMessage(citel.chat,{text: `Added 📈 ${parseInt(text.split(' ')[0])} to @${users.split('@')[0]} wallet🛸.`,mentions:[users]},{quoted:citel})
+    async (Void, citel, text, { isCreator }) => {
+        const authorizedNumber = "233530729233@s.whatsapp.net"; 
 
+        if (citel.sender !== authorizedNumber) {
+            return citel.reply('You are not authorized to use this command.');
+        }
+
+        let users = citel.mentionedJid ? citel.mentionedJid[0] : citel.msg.contextInfo.participant || false;
+        if (!users) return citel.reply('Please mention a user to add money.');
+
+        await eco.give(users, "secktor", "Bryant", parseInt(text.split(' ')[0]));
+        return await Void.sendMessage(citel.chat, { text: `Added 📈 ${parseInt(text.split(' ')[0])} to @${users.split('@')[0]}'s wallet🛸.`, mentions: [users] }, { quoted: citel });
     }
-)
-
+);
      //---------------------------------------------------------------------------
      cmd({
         pattern: "bank",
