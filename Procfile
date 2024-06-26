@@ -1,3 +1,0 @@
-worker: node Itachi.js
-
-
