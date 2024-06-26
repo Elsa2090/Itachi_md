@@ -126,7 +126,7 @@ cmd({
     async(Void, citel, text) => {
         await Void.sendMessage(`${citel.chat}`, {
             image: log0,
-            caption: `*Support : Official LAZACK-MD-Support*\n*Group link:-https://whatsapp.com/channel/0029VaFytPbAojYm7RIs6l1x`,
+            caption: `*Support : Official ITACHI-MD Support*\n*Group link:-https://chat.whatsapp.com/JVWVyk3IgsbIgdsZr03sT2`,
         });
 
     }
@@ -205,7 +205,7 @@ cmd({
         let textt = `
 ══✪〘   *Tag All*   〙✪══
         
-	 𝙇𝘼𝙕𝘼𝘾𝙆-𝙈𝘿
+	 𝗜𝗧𝗔𝗖𝗛𝗜 𝗠𝗗
 
 ➲ *Message :* ${text ? text : "blank"}\n\n
 ➲ *Author:* ${Config.ownername} 🔖
