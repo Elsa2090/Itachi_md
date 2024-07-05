@@ -60,7 +60,7 @@ JOIN THE GROUP TO GET MONGODB URI WHICH WILL HELP YOU TO RUN THE BOT
 </p>
 
 <p align="left" >
-    <a href="https://heroku.com/deploy?template=https://github.com/Elsa2090/Itachi_md">
+    <a href="https://dashboard.heroku.com/new?template=https://github.com/Elsa2090/Itachi-md">
     <img src="https://telegra.ph/file/873a73bb44e63d9598fa8.png" width="100px" alt="Deploy to Heroku" >
     </a>
 
